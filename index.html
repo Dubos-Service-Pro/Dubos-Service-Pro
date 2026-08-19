@@ -161,39 +161,28 @@
 
             <h2>Nous contacter</h2>
 
-            <!-- FORMSUBMIT -->
-
             <form
                 action="https://formsubmit.co/exthor69.off@gmail.com"
                 method="POST"
             >
 
+                <!-- Sujet du mail -->
                 <input
                     type="hidden"
                     name="_subject"
                     value="Nouvelle demande - Dubos Service Pro"
                 >
 
-                <input
-                    type="hidden"
-                    name="_captcha"
-                    value="false"
-                >
-
+                <!-- Format du mail -->
                 <input
                     type="hidden"
                     name="_template"
                     value="table"
                 >
 
-                <input
-                    type="hidden"
-                    name="_replyto"
-                    value="email"
-                >
-
-
-                <!-- NOM -->
+                <!-- =========================
+                     NOM
+                ========================== -->
 
                 <label for="nom">
                     Nom, Prénom :
@@ -208,7 +197,9 @@
                 >
 
 
-                <!-- TÉLÉPHONE -->
+                <!-- =========================
+                     TÉLÉPHONE
+                ========================== -->
 
                 <label for="telephone">
                     Téléphone :
@@ -223,7 +214,9 @@
                 >
 
 
-                <!-- EMAIL -->
+                <!-- =========================
+                     EMAIL
+                ========================== -->
 
                 <label for="email">
                     Email :
@@ -232,13 +225,15 @@
                 <input
                     type="email"
                     id="email"
-                    name="email"
+                    name="_replyto"
                     placeholder="exemple@gmail.com"
                     required
                 >
 
 
-                <!-- MESSAGE -->
+                <!-- =========================
+                     MESSAGE
+                ========================== -->
 
                 <label for="message">
                     Message :
@@ -252,7 +247,9 @@
                 ></textarea>
 
 
-                <!-- BOUTON -->
+                <!-- =========================
+                     BOUTON
+                ========================== -->
 
                 <button type="submit">
                     Envoyer ma demande
@@ -277,4 +274,3 @@
 </body>
 
 </html>
-```
