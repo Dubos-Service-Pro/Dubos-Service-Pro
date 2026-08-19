@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Dubos Service Pro</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- =========================
+         NAVIGATION
+    ========================== -->
+
+    <nav>
+        <a href="#accueil">Accueil</a>
+        <a href="#services">Services</a>
+        <a href="#position">Position</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+
+    <main>
+
+        <!-- =========================
+             ACCUEIL
+        ========================== -->
+
+        <section id="accueil">
+
+            <h1>Bienvenue sur le site de Dubos Service Pro</h1>
+
+            <img
+                class="dubos-service-pro"
+                src="images/dubos-service-pro.png"
+                alt="Dubos Service Pro"
+            >
+
+            <img
+                class="carte2"
+                src="images/carte2.jpeg"
+                alt="Carte Dubos Service Pro"
+            >
+
+        </section>
+
+
+        <!-- =========================
+             SERVICES
+        ========================== -->
+
+        <section id="services">
+
+            <h2>Nos services</h2>
+
+            <div class="services">
+
+                <!-- SERVICE 1 -->
+
+                <div class="service-colonne">
+
+                    <div class="carte">
+
+                        <h3>⚡ Installation électrique</h3>
+
+                        <p>
+                            Installation électrique pour maisons et locaux professionnels.
+                        </p>
+
+                    </div>
+
+                    <img
+                        class="image-service"
+                        src="images/joli-éclairage-plafond.jpeg"
+                        alt="Installation d'éclairage"
+                    >
+
+                </div>
+
+
+                <!-- SERVICE 2 -->
+
+                <div class="service-colonne">
+
+                    <div class="carte">
+
+                        <h3>💡 Dépannage électrique</h3>
+
+                        <p>
+                            Intervention pour résoudre vos problèmes électriques.
+                        </p>
+
+                    </div>
+
+                    <img
+                        class="image-service"
+                        src="images/éclairage-plafond.jpeg"
+                        alt="Éclairage de plafond"
+                    >
+
+                </div>
+
+
+                <!-- SERVICE 3 -->
+
+                <div class="service-colonne">
+
+                    <div class="carte">
+
+                        <h3>🔌 Mise aux normes</h3>
+
+                        <p>
+                            Mise en conformité de votre installation électrique.
+                        </p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- =========================
+             POSITION
+        ========================== -->
+
+        <section id="position">
+
+            <h2>Notre position géographique</h2>
+
+            <h5>
+                <a
+                    href="https://www.google.fr/maps/place/38540+Valencin/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                >
+                    Voir notre position sur Google Maps
+                </a>
+            </h5>
+
+            <img
+                class="valencin"
+                src="images/Valencin.png"
+                alt="Localisation de Valencin"
+            >
+
+        </section>
+
+
+        <!-- =========================
+             CONTACT
+        ========================== -->
+
+        <section id="contact">
+
+            <h2>Nous contacter</h2>
+
+            <!-- FORMSUBMIT -->
+
+            <form
+                action="https://formsubmit.co/exthor69.off@gmail.com"
+                method="POST"
+            >
+
+                <!-- Sujet du mail -->
+                <input
+                    type="hidden"
+                    name="_subject"
+                    value="Nouvelle demande - Dubos Service Pro"
+                >
+
+                <!-- Désactive le captcha -->
+                <input
+                    type="hidden"
+                    name="_captcha"
+                    value="false"
+                >
+
+                <!-- Format du mail -->
+                <input
+                    type="hidden"
+                    name="_template"
+                    value="table"
+                >
+
+                <!-- Adresse utilisée pour répondre au client -->
+                <input
+                    type="hidden"
+                    name="_replyto"
+                    value="email"
+                >
+
+                <!-- =========================
+                     NOM
+                ========================== -->
+
+                <label for="nom">
+                    Nom, Prénom :
+                </label>
+
+                <input
+                    type="text"
+                    id="nom"
+                    name="Nom"
+                    placeholder="Votre nom"
+                    required
+                >
+
+
+                <!-- =========================
+                     TÉLÉPHONE
+                ========================== -->
+
+                <label for="telephone">
+                    Téléphone :
+                </label>
+
+                <input
+                    type="tel"
+                    id="telephone"
+                    name="Téléphone"
+                    placeholder="06 00 00 00 00"
+                    required
+                >
+
+
+                <!-- =========================
+                     EMAIL
+                ========================== -->
+
+                <label for="email">
+                    Email :
+                </label>
+
+                <input
+                    type="email"
+                    id="email"
+                    name="email"
+                    placeholder="exemple@gmail.com"
+                    required
+                >
+
+
+                <!-- =========================
+                     MESSAGE
+                ========================== -->
+
+                <label for="message">
+                    Message :
+                </label>
+
+                <textarea
+                    id="message"
+                    name="Message"
+                    placeholder="Expliquez-nous votre demande"
+                    required
+                ></textarea>
+
+
+                <!-- =========================
+                     BOUTON
+                ========================== -->
+
+                <button type="submit">
+                    Envoyer ma demande
+                </button>
+
+            </form>
+
+        </section>
+
+    </main>
+
+
+    <!-- =========================
+         PIED DE PAGE
+    ========================== -->
+
+    <h4>© Dubos-Service-Pro 2026</h4>
+
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
