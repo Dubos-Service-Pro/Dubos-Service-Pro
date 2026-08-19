@@ -1,7 +1,7 @@
 const formulaire = document.querySelector("form");
 
-formulaire.addEventListener("submit", function(event) {
-    event.preventDefault();
-
-    alert(" Merci ! Votre demande a bien été prise en compte. ✅");
+formulaire.addEventListener("submit", function() {
+    alert("Merci ! Votre demande va être envoyée. ✅");
 });
+
+console.log("Dubos Service Pro - site chargé");
